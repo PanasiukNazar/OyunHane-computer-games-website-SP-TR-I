@@ -1,0 +1,1286 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>CreadorJuego</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta content="Free HTML Templates" name="keywords" />
+        <meta content="Free HTML Templates" name="description" />
+
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon" />
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Rubik:wght@400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Icon Font Stylesheet -->
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+            rel="stylesheet"
+        />
+
+        <!-- Libraries Stylesheet -->
+        <link
+            href="lib/owlcarousel/assets/owl.carousel.min.css"
+            rel="stylesheet"
+        />
+        <link href="lib/animate/animate.min.css" rel="stylesheet" />
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <!-- Spinner Start -->
+        <div
+            id="spinner"
+            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+        >
+            <div class="spinner"></div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Navbar & Carousel Start -->
+        <div class="container-fluid position-relative p-0">
+            <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0">
+                <a href="index.html" class="navbar-brand p-0">
+                    <h1 class="m-0">OyunEvreni</h1>
+                </a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse"
+                >
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto py-0">
+                        <a href="index.html" class="nav-item nav-link"
+                            >Anasayfa</a
+                        >
+                        <a href="index.html#about" class="nav-item nav-link"
+                            >Haberler</a
+                        >
+                        <a href="index.html#blog" class="nav-item nav-link"
+                            >Blog</a
+                        >
+                        <a href="index.html#service" class="nav-item nav-link"
+                            >Hizmetler</a
+                        >
+                        <a href="index.html#team" class="nav-item nav-link"
+                            >Ekip</a
+                        >
+                        <a href="index.html#contact" class="nav-item nav-link"
+                            >İletişim</a
+                        >
+                    </div>
+                </div>
+            </nav>
+
+            <div
+                id="header-carousel"
+                class="carousel slide carousel-fade"
+                data-bs-ride="carousel"
+            >
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img
+                            class="w-100"
+                            src="img/carousel-1.jpg"
+                            alt="Görsel"
+                        />
+                        <div
+                            class="carousel-caption d-flex flex-column align-items-center justify-content-center"
+                        >
+                            <div class="p-3" style="max-width: 900px">
+                                <h5
+                                    class="text-white text-uppercase mb-3 animated slideInDown"
+                                >
+                                    Bilgisayar oyunlarının büyüleyici dünyasına
+                                    adım atın. Oyun geliştirme sürecinin
+                                    derinliklerine inin ve yaratıcılığınızı
+                                    keşfedin.
+                                </h5>
+                                <h1
+                                    class="display-1 text-white mb-md-4 animated zoomIn"
+                                >
+                                    Oyun Geliştirme ve Tasarımın Heyecanı
+                                </h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img
+                            class="w-100"
+                            src="img/carousel-2.jpg"
+                            alt="Görsel"
+                        />
+                        <div
+                            class="carousel-caption d-flex flex-column align-items-center justify-content-center"
+                        >
+                            <div class="p-3" style="max-width: 900px">
+                                <h5
+                                    class="text-white text-uppercase mb-3 animated slideInDown"
+                                >
+                                    Oyuncular için unutulmaz deneyimler
+                                    yaratmayı öğrenin. Grafiklerden oyun
+                                    motorlarına kadar her detayı keşfedin.
+                                </h5>
+                                <h1
+                                    class="display-1 text-white mb-md-4 animated zoomIn"
+                                >
+                                    Harika Oyunlar Tasarlayın
+                                </h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#header-carousel"
+                    data-bs-slide="prev"
+                >
+                    <span
+                        class="carousel-control-prev-icon"
+                        aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Önceki</span>
+                </button>
+                <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#header-carousel"
+                    data-bs-slide="next"
+                >
+                    <span
+                        class="carousel-control-next-icon"
+                        aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Sonraki</span>
+                </button>
+            </div>
+        </div>
+        <!-- Navbar & Carousel End -->
+
+        <!-- Full Screen Search Start -->
+        <div class="modal fade" id="searchModal" tabindex="-1">
+            <div class="modal-dialog modal-fullscreen">
+                <div
+                    class="modal-content"
+                    style="background: rgba(9, 30, 62, 0.7)"
+                >
+                    <div class="modal-header border-0">
+                        <button
+                            type="button"
+                            class="btn bg-white btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                        ></button>
+                    </div>
+                    <div
+                        class="modal-body d-flex align-items-center justify-content-center"
+                    >
+                        <div class="input-group" style="max-width: 600px">
+                            <input
+                                type="text"
+                                class="form-control bg-transparent border-primary p-3"
+                                placeholder="Anahtar kelimeyi yazın"
+                            />
+                            <button class="btn btn-primary px-4">
+                                <i class="bi bi-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Full Screen Search End -->
+
+        <!-- Facts Start -->
+        <div class="container-fluid facts py-5 pt-lg-0">
+            <div class="container py-5 pt-lg-0">
+                <div class="row gx-0">
+                    <div class="col-lg-4 wow zoomIn" data-wow-delay="0.1s">
+                        <div
+                            class="bg-primary shadow d-flex align-items-center justify-content-center p-4"
+                            style="height: 150px"
+                        >
+                            <div
+                                class="bg-white d-flex align-items-center justify-content-center rounded mb-2"
+                                style="width: 60px; height: 60px"
+                            >
+                                <i class="fa fa-users text-primary"></i>
+                            </div>
+                            <div class="ps-4">
+                                <h5 class="text-white mb-0">
+                                    Memnun Oyuncular
+                                </h5>
+                                <h1
+                                    class="text-white mb-0"
+                                    data-toggle="counter-up"
+                                >
+                                    712
+                                </h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 wow zoomIn" data-wow-delay="0.3s">
+                        <div
+                            class="bg-light shadow d-flex align-items-center justify-content-center p-4"
+                            style="height: 150px"
+                        >
+                            <div
+                                class="bg-primary d-flex align-items-center justify-content-center rounded mb-2"
+                                style="width: 60px; height: 60px"
+                            >
+                                <i class="fa fa-check text-white"></i>
+                            </div>
+                            <div class="ps-4">
+                                <h5 class="text-primary mb-0">
+                                    Tamamlanan Projeler
+                                </h5>
+                                <h1 class="mb-0" data-toggle="counter-up">
+                                    55
+                                </h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 wow zoomIn" data-wow-delay="0.6s">
+                        <div
+                            class="bg-primary shadow d-flex align-items-center justify-content-center p-4"
+                            style="height: 150px"
+                        >
+                            <div
+                                class="bg-white d-flex align-items-center justify-content-center rounded mb-2"
+                                style="width: 60px; height: 60px"
+                            >
+                                <i class="fa fa-award text-primary"></i>
+                            </div>
+                            <div class="ps-4">
+                                <h5 class="text-white mb-0">
+                                    Kazanılan Ödüller
+                                </h5>
+                                <h1
+                                    class="text-white mb-0"
+                                    data-toggle="counter-up"
+                                >
+                                    132
+                                </h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Facts Start -->
+
+        <!-- About Start -->
+        <div
+            class="container-fluid py-5 wow fadeInUp"
+            data-wow-delay="0.1s"
+            id="about"
+        >
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-7">
+                        <div class="section-title position-relative pb-3 mb-5">
+                            <h5 class="fw-bold text-primary text-uppercase">
+                                HAKKIMIZDA
+                            </h5>
+                            <h1 class="mb-0">
+                                Bizi Tanıyın: Bilgisayar Oyunları Geliştirme
+                                Uzmanları
+                            </h1>
+                        </div>
+                        <p class="mb-4">
+                            Ekibimiz, bilgisayar oyunları geliştirme konusunda
+                            uzmanlaşmış bir grup yaratıcı profesyonelden
+                            oluşmaktadır. Oyun dünyasında oyuncuların
+                            hayallerini gerçeğe dönüştürmek için yenilikçi
+                            çözümler sunmaya odaklanıyoruz. Her projede kalite,
+                            yaratıcılık ve oyuncu odaklı yaklaşımımızla fark
+                            yaratıyoruz.
+                        </p>
+                        <div class="row g-0 mb-3">
+                            <div
+                                class="col-sm-6 wow zoomIn"
+                                data-wow-delay="0.2s"
+                            >
+                                <h5 class="mb-3">
+                                    <i class="fa fa-check text-primary me-3"></i
+                                    >Yenilikçilik
+                                </h5>
+                                <h5 class="mb-3">
+                                    <i class="fa fa-check text-primary me-3"></i
+                                    >Tecrübe
+                                </h5>
+                            </div>
+                            <div
+                                class="col-sm-6 wow zoomIn"
+                                data-wow-delay="0.4s"
+                            >
+                                <h5 class="mb-3">
+                                    <i class="fa fa-check text-primary me-3"></i
+                                    >Özelleştirme
+                                </h5>
+                                <h5 class="mb-3">
+                                    <i class="fa fa-check text-primary me-3"></i
+                                    >Destek
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5" style="min-height: 500px">
+                        <div class="position-relative h-100">
+                            <img
+                                class="position-absolute w-100 h-100 rounded wow zoomIn"
+                                data-wow-delay="0.9s"
+                                src="img/about.jpg"
+                                style="object-fit: cover"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+        <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="container py-5">
+                <div
+                    class="section-title text-center position-relative pb-3 mb-5 mx-auto"
+                    style="max-width: 600px"
+                >
+                    <h5 class="fw-bold text-primary text-uppercase">
+                        SON HABERLER
+                    </h5>
+                    <h1 class="mb-0">
+                        Oyun dünyasındaki en son haberlerden haberdar olun
+                    </h1>
+                </div>
+                <div class="row g-0">
+                    <div class="col-lg-4 wow slideInUp" data-wow-delay="0.6s">
+                        <div class="bg-light rounded">
+                            <div class="border-bottom py-4 px-5 mb-4">
+                                <h4 class="text-primary mb-1">
+                                    En Yeni Bilgisayar Oyunumuzu Keşfedin
+                                </h4>
+                            </div>
+                            <div class="p-5 pt-0">
+                                <p>
+                                    Oyuncular için tasarlanan en yeni bilgisayar
+                                    oyunumuzu tanıtmaktan heyecan duyuyoruz.
+                                    Benzersiz grafikleri ve sürükleyici
+                                    hikayesiyle bu oyun, oyun deneyiminizi bir
+                                    üst seviyeye taşıyacak.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 wow slideInUp" data-wow-delay="0.3s">
+                        <div
+                            class="bg-white rounded shadow position-relative"
+                            style="z-index: 1"
+                        >
+                            <div class="border-bottom py-4 px-5 mb-4">
+                                <h4 class="text-primary mb-1">
+                                    Oyununuzu Optimize Etmenin İpuçları
+                                </h4>
+                            </div>
+                            <div class="p-5 pt-0">
+                                <p>
+                                    Bilgisayar oyununuzun performansını artırmak
+                                    için uzmanlarımızdan ipuçları alın.
+                                    Akıcılığı ve oyuncu deneyimini geliştirmek
+                                    için en iyi stratejileri öğrenin.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 wow slideInUp" data-wow-delay="0.9s">
+                        <div class="bg-light rounded">
+                            <div class="border-bottom py-4 px-5 mb-4">
+                                <h4 class="text-primary mb-1">
+                                    Oyun Tasarımında Son Trendler
+                                </h4>
+                            </div>
+                            <div class="p-5 pt-0">
+                                <p>
+                                    Bilgisayar oyunlarında kullanılan en yeni
+                                    tasarım trendlerine göz atın. Kullanıcı
+                                    dostu arayüzlerden, artırılmış gerçeklik
+                                    unsurlarına kadar modern oyun deneyimleri
+                                    yaratın.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Features Start -->
+        <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="container py-5">
+                <div
+                    class="section-title text-center position-relative pb-3 mb-5 mx-auto"
+                    style="max-width: 600px"
+                >
+                    <h5 class="fw-bold text-primary text-uppercase">
+                        NEDEN BİZİ SEÇMELİSİNİZ
+                    </h5>
+                    <h1 class="mb-0">
+                        Bilgisayar Oyunlarında Neden Sizin İçin Doğru Tercihiz?
+                    </h1>
+                </div>
+                <div class="row g-5">
+                    <div class="col-lg-4">
+                        <div class="row g-5">
+                            <div
+                                class="col-12 wow zoomIn"
+                                data-wow-delay="0.2s"
+                            >
+                                <div
+                                    class="bg-primary rounded d-flex align-items-center justify-content-center mb-3"
+                                    style="width: 60px; height: 60px"
+                                >
+                                    <i class="fa fa-gamepad text-white"></i>
+                                </div>
+                                <h4>Deneyim</h4>
+                                <p class="mb-0">
+                                    Oyun geliştirme alanında yıllara dayanan
+                                    deneyimimizle sektörde fark yaratıyoruz.
+                                    Ekibimiz, her zorlukla başa çıkabilecek
+                                    uzmanlığa sahip.
+                                </p>
+                            </div>
+                            <div
+                                class="col-12 wow zoomIn"
+                                data-wow-delay="0.6s"
+                            >
+                                <div
+                                    class="bg-primary rounded d-flex align-items-center justify-content-center mb-3"
+                                    style="width: 60px; height: 60px"
+                                >
+                                    <i class="fa fa-heart text-white"></i>
+                                </div>
+                                <h4>Oyuncu Odaklı Tasarım</h4>
+                                <p class="mb-0">
+                                    Oyuncuların ihtiyaçlarını anlamak için her
+                                    zaman en iyisini yapıyoruz. Kullanıcı dostu
+                                    ve etkileyici oyun deneyimleri tasarlıyoruz.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-4 wow zoomIn"
+                        data-wow-delay="0.9s"
+                        style="min-height: 350px"
+                    >
+                        <div class="position-relative h-100">
+                            <img
+                                class="position-absolute w-100 h-100 rounded wow zoomIn"
+                                data-wow-delay="0.1s"
+                                src="img/feature.jpg"
+                                style="object-fit: cover"
+                            />
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="row g-5">
+                            <div
+                                class="col-12 wow zoomIn"
+                                data-wow-delay="0.4s"
+                            >
+                                <div
+                                    class="bg-primary rounded d-flex align-items-center justify-content-center mb-3"
+                                    style="width: 60px; height: 60px"
+                                >
+                                    <i class="fa fa-rocket text-white"></i>
+                                </div>
+                                <h4>Yenilikçilik</h4>
+                                <p class="mb-0">
+                                    Sürekli yeni teknolojiler araştırıyor ve
+                                    projelerimize dahil ediyoruz. Gerçeklik
+                                    artırma ve yapay zeka gibi teknolojilerle
+                                    oyunlarınızı geliştirin.
+                                </p>
+                            </div>
+                            <div
+                                class="col-12 wow zoomIn"
+                                data-wow-delay="0.8s"
+                            >
+                                <div
+                                    class="bg-primary rounded d-flex align-items-center justify-content-center mb-3"
+                                    style="width: 60px; height: 60px"
+                                >
+                                    <i class="fa fa-thumbs-up text-white"></i>
+                                </div>
+                                <h4>Mükemmeliyet Taahhüdü</h4>
+                                <p class="mb-0">
+                                    Planlamadan lansmana kadar her aşamada
+                                    mükemmel sonuçlar sunmak için çalışıyoruz.
+                                    Ekibimiz projelerinizi hayata geçirmek için
+                                    burada.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Features Start -->
+
+        <!-- Testimonial Start -->
+        <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="container py-5">
+                <div
+                    class="section-title text-center position-relative pb-3 mb-4 mx-auto"
+                    style="max-width: 600px"
+                >
+                    <h5 class="fw-bold text-primary text-uppercase">
+                        Müşteri Görüşleri
+                    </h5>
+                    <h1 class="mb-0">
+                        Müşterilerimiz bilgisayar oyunları hizmetlerimiz
+                        hakkında ne diyor?
+                    </h1>
+                </div>
+                <div
+                    class="owl-carousel testimonial-carousel wow fadeInUp"
+                    data-wow-delay="0.6s"
+                >
+                    <div class="testimonial-item bg-light my-4">
+                        <div
+                            class="d-flex align-items-center border-bottom pt-5 pb-4 px-5"
+                        >
+                            <img
+                                class="img-fluid rounded"
+                                src="img/testimonial-1.jpg"
+                                style="width: 60px; height: 60px"
+                            />
+                            <div class="ps-4">
+                                <h4 class="text-primary mb-1">Emre Y.</h4>
+                            </div>
+                        </div>
+                        <div class="pt-4 pb-5 px-5">
+                            Bu ekip sayesinde hayalimdeki bilgisayar oyunu
+                            gerçek oldu! Harika bir iş çıkararak beklentilerimi
+                            aştılar. Oyuncularımız oyun deneyiminden çok memnun.
+                            Teşekkür ederim!
+                        </div>
+                    </div>
+                    <div class="testimonial-item bg-light my-4">
+                        <div
+                            class="d-flex align-items-center border-bottom pt-5 pb-4 px-5"
+                        >
+                            <img
+                                class="img-fluid rounded"
+                                src="img/testimonial-2.jpg"
+                                style="width: 60px; height: 60px"
+                            />
+                            <div class="ps-4">
+                                <h4 class="text-primary mb-1">Ahmet K.</h4>
+                            </div>
+                        </div>
+                        <div class="pt-4 pb-5 px-5">
+                            Ekibin profesyonelliği ve yaratıcılığı bizi çok
+                            etkiledi. Oyun geliştirme sürecinde her zaman
+                            yanımızda oldular ve mükemmel sonuçlar elde ettik.
+                            Kesinlikle öneririm!
+                        </div>
+                    </div>
+                    <div class="testimonial-item bg-light my-4">
+                        <div
+                            class="d-flex align-items-center border-bottom pt-5 pb-4 px-5"
+                        >
+                            <img
+                                class="img-fluid rounded"
+                                src="img/testimonial-3.jpg"
+                                style="width: 60px; height: 60px"
+                            />
+                            <div class="ps-4">
+                                <h4 class="text-primary mb-1">Mert D.</h4>
+                            </div>
+                        </div>
+                        <div class="pt-4 pb-5 px-5">
+                            Bu ekip oyun geliştirme konusunda uzman! Yenilikçi
+                            yaklaşımları ve detaylara verdikleri önem,
+                            projemizin başarıya ulaşmasında kritik rol oynadı.
+                            Tekrar çalışmak için sabırsızlanıyorum.
+                        </div>
+                    </div>
+                    <div class="testimonial-item bg-light my-4">
+                        <div
+                            class="d-flex align-items-center border-bottom pt-5 pb-4 px-5"
+                        >
+                            <img
+                                class="img-fluid rounded"
+                                src="img/testimonial-4.jpg"
+                                style="width: 60px; height: 60px"
+                            />
+                            <div class="ps-4">
+                                <h4 class="text-primary mb-1">Cem S.</h4>
+                            </div>
+                        </div>
+                        <div class="pt-4 pb-5 px-5">
+                            Hayalimizdeki bilgisayar oyunu bu ekip sayesinde
+                            gerçek oldu! Oyun performansı, grafikleri ve oynanış
+                            mekanikleri beklentilerimizin çok üzerinde. Harika
+                            bir iş çıkardılar!
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Testimonial End -->
+
+        <!-- Service Start -->
+        <div
+            class="container-fluid py-5 wow fadeInUp"
+            data-wow-delay="0.1s"
+            id="service"
+        >
+            <div class="container py-5">
+                <div
+                    class="section-title text-center position-relative pb-3 mb-5 mx-auto"
+                    style="max-width: 600px"
+                >
+                    <h5 class="fw-bold text-primary text-uppercase">
+                        HİZMETLERİMİZ
+                    </h5>
+                    <h1 class="mb-0">
+                        Bilgisayar oyunları geliştirme sürecinizde size yardımcı
+                        olmak için geniş bir hizmet yelpazesi sunuyoruz
+                    </h1>
+                </div>
+                <div class="row g-5">
+                    <div
+                        class="col-lg-4 col-md-6 wow zoomIn"
+                        data-wow-delay="0.3s"
+                    >
+                        <div
+                            class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center"
+                        >
+                            <div class="service-icon">
+                                <i class="fa fa-gamepad text-white"></i>
+                            </div>
+                            <h4 class="mb-3">Özel Oyun Geliştirme</h4>
+                            <p class="m-0">
+                                Eşsiz ve yenilikçi oyun deneyimleri yaratmak
+                                için özel oyunlar tasarlıyor ve geliştiriyoruz.
+                                Grafikler, oynanış ve performans açısından
+                                beklentilerinizi aşmak için buradayız.
+                            </p>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-4 col-md-6 wow zoomIn"
+                        data-wow-delay="0.6s"
+                    >
+                        <div
+                            class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center"
+                        >
+                            <div class="service-icon">
+                                <i class="fa fa-paint-brush text-white"></i>
+                            </div>
+                            <h4 class="mb-3">Oyun Arayüz Tasarımı (UI/UX)</h4>
+                            <p class="m-0">
+                                Oyunlarınızın kullanıcı dostu ve etkileyici
+                                olmasını sağlamak için çarpıcı arayüzler
+                                tasarlıyoruz. Oyun deneyimini mükemmelleştirmek
+                                için her ayrıntıya dikkat ediyoruz.
+                            </p>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-4 col-md-6 wow zoomIn"
+                        data-wow-delay="0.9s"
+                    >
+                        <div
+                            class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center"
+                        >
+                            <div class="service-icon">
+                                <i class="fa fa-tools text-white"></i>
+                            </div>
+                            <h4 class="mb-3">Mevcut Oyunların Optimizasyonu</h4>
+                            <p class="m-0">
+                                Mevcut oyunlarınızın performansını artırmak ve
+                                yeni özellikler eklemek için kod optimizasyonu
+                                ve hata düzeltme hizmetleri sunuyoruz.
+                                Oyunlarınızı sürekli güncel ve sorunsuz
+                                tutuyoruz.
+                            </p>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-4 col-md-6 wow zoomIn"
+                        data-wow-delay="0.3s"
+                    >
+                        <div
+                            class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center"
+                        >
+                            <div class="service-icon">
+                                <i class="fa fa-lightbulb text-white"></i>
+                            </div>
+                            <h4 class="mb-3">Oyun Geliştirme Stratejisi</h4>
+                            <p class="m-0">
+                                Oyun geliştirme projeleriniz için etkili bir
+                                strateji belirlemenize yardımcı oluyoruz. Fikir
+                                aşamasından lansmana kadar her adımda rehberlik
+                                sağlıyoruz.
+                            </p>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-4 col-md-6 wow zoomIn"
+                        data-wow-delay="0.6s"
+                    >
+                        <div
+                            class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center"
+                        >
+                            <div class="service-icon">
+                                <i class="fa fa-bug text-white"></i>
+                            </div>
+                            <h4 class="mb-3">
+                                Kalite Kontrol ve Test Hizmetleri
+                            </h4>
+                            <p class="m-0">
+                                Oyunlarınızın en yüksek performans, güvenlik ve
+                                işlevsellik standartlarını karşıladığından emin
+                                olmak için kapsamlı testler yapıyoruz. Sorunsuz
+                                bir kullanıcı deneyimi sağlıyoruz.
+                            </p>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-4 col-md-6 wow zoomIn"
+                        data-wow-delay="0.9s"
+                    >
+                        <div
+                            class="position-relative bg-primary rounded h-100 d-flex flex-column align-items-center justify-content-center text-center p-5"
+                        >
+                            <h3 class="text-white mb-3">Çevrimiçi Destek</h3>
+                            <p class="text-white mb-3">
+                                Müşterilerimize çevrimiçi destek sunarak
+                                sorularını yanıtlıyor ve karşılaşabilecekleri
+                                sorunlara çözüm sağlıyoruz.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Service End -->
+
+        <!-- Team Start -->
+        <div
+            class="container-fluid py-5 wow fadeInUp"
+            data-wow-delay="0.1s"
+            id="team"
+        >
+            <div class="container py-5">
+                <div
+                    class="section-title text-center position-relative pb-3 mb-5 mx-auto"
+                    style="max-width: 600px"
+                >
+                    <h5 class="fw-bold text-primary text-uppercase">
+                        EKİP ÜYELERİMİZ
+                    </h5>
+                    <h1 class="mb-0">
+                        Oyun geliştirme sürecinizde size yardımcı olmak için
+                        ekibimiz hazır
+                    </h1>
+                </div>
+                <div class="row g-5">
+                    <div class="col-lg-4 wow slideInUp" data-wow-delay="0.3s">
+                        <div class="team-item bg-light rounded overflow-hidden">
+                            <div
+                                class="team-img position-relative overflow-hidden"
+                            >
+                                <img
+                                    class="img-fluid w-100"
+                                    src="img/team-1.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="text-center py-4">
+                                <h4 class="text-primary">Mert Yılmaz</h4>
+                                <p class="text-uppercase m-0">
+                                    Ana Oyun Geliştiricisi
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 wow slideInUp" data-wow-delay="0.6s">
+                        <div class="team-item bg-light rounded overflow-hidden">
+                            <div
+                                class="team-img position-relative overflow-hidden"
+                            >
+                                <img
+                                    class="img-fluid w-100"
+                                    src="img/team-2.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="text-center py-4">
+                                <h4 class="text-primary">Aliye Demir</h4>
+                                <p class="text-uppercase m-0">
+                                    iOS Oyun Geliştiricisi
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 wow slideInUp" data-wow-delay="0.9s">
+                        <div class="team-item bg-light rounded overflow-hidden">
+                            <div
+                                class="team-img position-relative overflow-hidden"
+                            >
+                                <img
+                                    class="img-fluid w-100"
+                                    src="img/team-3.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="text-center py-4">
+                                <h4 class="text-primary">Ahmet Korkmaz</h4>
+                                <p class="text-uppercase m-0">
+                                    Oyun Tasarımı ve Kullanıcı Deneyimi (UX)
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Team End -->
+
+        <!-- Blog Start -->
+        <div
+            class="container-fluid py-5 wow fadeInUp"
+            data-wow-delay="0.1s"
+            id="blog"
+        >
+            <div class="container py-5">
+                <div
+                    class="section-title text-center position-relative pb-3 mb-5 mx-auto"
+                    style="max-width: 600px"
+                >
+                    <h5 class="fw-bold text-primary text-uppercase">
+                        BLOGUMUZ
+                    </h5>
+                    <h1 class="mb-0">Blogumuzdan en son makaleleri okuyun</h1>
+                </div>
+                <div class="row g-5">
+                    <div class="col-lg-6 wow slideInUp" data-wow-delay="0.6s">
+                        <div class="blog-item bg-light rounded overflow-hidden">
+                            <div
+                                class="blog-img position-relative overflow-hidden"
+                            >
+                                <img
+                                    class="img-fluid"
+                                    src="img/blog-2.jpg"
+                                    alt=""
+                                />
+                                <a
+                                    class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4"
+                                    href=""
+                                    >Yeni Oyun Teknolojileri</a
+                                >
+                            </div>
+                            <div class="p-4">
+                                <div class="d-flex mb-3">
+                                    <small class="me-3"
+                                        ><i
+                                            class="far fa-user text-primary me-2"
+                                        ></i
+                                        >Emre A.</small
+                                    >
+                                    <small
+                                        ><i
+                                            class="far fa-calendar-alt text-primary me-2"
+                                        ></i
+                                        >15 Mayıs 2024</small
+                                    >
+                                </div>
+                                <h4 class="mb-3">
+                                    Bilgisayar Oyunlarında Yeni Teknolojiler ve
+                                    Gelecek
+                                </h4>
+                                <p>
+                                    Bilgisayar oyunlarında kullanılan yeni
+                                    teknolojiler hakkında bir inceleme yapın.
+                                    Yapay zeka ve sanal gerçeklik gibi
+                                    yeniliklerin nasıl oyun deneyimini
+                                    dönüştürdüğünü keşfedin.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow slideInUp" data-wow-delay="0.9s">
+                        <div class="blog-item bg-light rounded overflow-hidden">
+                            <div
+                                class="blog-img position-relative overflow-hidden"
+                            >
+                                <img
+                                    class="img-fluid"
+                                    src="img/blog-3.jpg"
+                                    alt=""
+                                />
+                                <a
+                                    class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4"
+                                    href=""
+                                    >Oyun Performansı Optimizasyonu</a
+                                >
+                            </div>
+                            <div class="p-4">
+                                <div class="d-flex mb-3">
+                                    <small class="me-3"
+                                        ><i
+                                            class="far fa-user text-primary me-2"
+                                        ></i
+                                        >Volkan B.</small
+                                    >
+                                    <small
+                                        ><i
+                                            class="far fa-calendar-alt text-primary me-2"
+                                        ></i
+                                        >20 Nisan 2022
+                                    </small>
+                                </div>
+                                <h4 class="mb-3">
+                                    Oyun Performansını İyileştirmek İçin
+                                    İpuçları
+                                </h4>
+                                <p>
+                                    Oyunlarınızın performansını artırmak için
+                                    uygulayabileceğiniz stratejiler hakkında
+                                    bilgi edinin. Kod optimizasyonu, bellek
+                                    yönetimi ve yükleme hızı iyileştirme gibi
+                                    önemli konuları keşfedin.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Blog Start -->
+
+        <!-- Contact Start -->
+        <div
+            class="container-fluid py-5 wow fadeInUp contact-wrapper"
+            data-wow-delay="0.1s"
+            id="contact"
+        >
+            <div class="container py-5">
+                <div
+                    class="section-title text-center position-relative pb-3 mb-5 mx-auto"
+                    style="max-width: 600px"
+                >
+                    <h5 class="fw-bold text-primary text-uppercase">
+                        İLETİŞİM
+                    </h5>
+                    <h1 class="mb-0">
+                        Herhangi bir sorunuz varsa, bizimle iletişime geçmekten
+                        çekinmeyin
+                    </h1>
+                </div>
+                <div class="row g-5 mb-5">
+                    <div class="col-lg-6">
+                        <div
+                            class="d-flex align-items-center wow fadeIn"
+                            data-wow-delay="0.1s"
+                        >
+                            <div
+                                class="bg-primary d-flex align-items-center justify-content-center rounded"
+                                style="width: 60px; height: 60px"
+                            >
+                                <i class="fa fa-phone-alt text-white"></i>
+                            </div>
+                            <div class="ps-4">
+                                <h4 class="text-primary mb-0">+903323501480</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div
+                            class="d-flex align-items-center wow fadeIn"
+                            data-wow-delay="0.4s"
+                        >
+                            <div
+                                class="bg-primary d-flex align-items-center justify-content-center rounded"
+                                style="width: 60px; height: 60px"
+                            >
+                                <i class="fa fa-envelope-open text-white"></i>
+                            </div>
+                            <div class="ps-4">
+                                <h4 class="text-primary mb-0">
+                                    oyun_evreni@gmail.com
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div
+                            class="d-flex align-items-center wow fadeIn"
+                            data-wow-delay="0.8s"
+                        >
+                            <div
+                                class="bg-primary d-flex align-items-center justify-content-center rounded"
+                                style="width: 60px; height: 60px"
+                            >
+                                <i class="fa fa-map-marker-alt text-white"></i>
+                            </div>
+                            <div class="ps-4">
+                                <h4 class="text-primary mb-0">
+                                    Sahibiata, Kazım Karabekir Cd. Kabasakal
+                                    pasajı Zemin 9 No: 14-15-16, 42040
+                                    Meram/Konya, Turkey
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-5">
+                    <div class="col-lg-6 wow slideInUp" data-wow-delay="0.3s">
+                        <form>
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <input
+                                        type="text"
+                                        class="form-control border-0 bg-light px-4"
+                                        placeholder="Adınız"
+                                        style="height: 55px"
+                                    />
+                                </div>
+                                <div class="col-md-6">
+                                    <input
+                                        id="email"
+                                        type="email"
+                                        class="form-control border-0 bg-light px-4"
+                                        placeholder="E-posta adresiniz"
+                                        style="height: 55px"
+                                    />
+                                    <div id="result" style="color: red"></div>
+                                </div>
+                                <div class="col-12">
+                                    <input
+                                        type="text"
+                                        class="form-control border-0 bg-light px-4"
+                                        placeholder="Konu"
+                                        style="height: 55px"
+                                    />
+                                </div>
+                                <div class="col-12">
+                                    <textarea
+                                        class="form-control border-0 bg-light px-4 py-3"
+                                        rows="4"
+                                        placeholder="Mesaj"
+                                    ></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <button
+                                        id="submit"
+                                        onclick="sendForm()"
+                                        class="btn btn-primary w-100 py-3"
+                                        type="submit"
+                                    >
+                                        Mesajı Gönder
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-lg-6 wow slideInUp" data-wow-delay="0.6s">
+                        <iframe
+                            class="position-relative rounded w-100 h-100"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1529.955481023195!2d32.4865374005332!3d37.870297627995804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d085abfe6f85b9%3A0xb340043f40e1fa46!2sSMART%20GAME!5e0!3m2!1suk!2sua!4v1734591859051!5m2!1suk!2sua"
+                            frameborder="0"
+                            style="min-height: 350px; border: 0"
+                            allowfullscreen=""
+                            aria-hidden="false"
+                            tabindex="0"
+                        ></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Contact End -->
+
+        <!-- Footer Start -->
+        <div
+            class="container-fluid bg-dark text-light mt-5 wow fadeInUp"
+            data-wow-delay="0.1s"
+        >
+            <div class="container">
+                <div class="row gx-5">
+                    <div class="col-lg-12">
+                        <div class="row gx-5">
+                            <div class="col-lg-4 col-md-12 pt-5 mb-5">
+                                <div
+                                    class="section-title section-title-sm position-relative pb-3 mb-4"
+                                >
+                                    <h3 class="text-light mb-0">Hakkımızda</h3>
+                                    <p>
+                                        Bilgisayar oyunları geliştirme
+                                        konusundaki deneyimimizle, projelerinizi
+                                        bir üst seviyeye taşıyoruz. Bugün
+                                        bizimle iletişime geçin, fikirlerinizi
+                                        gerçeğe dönüştürmeye başlayalım.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-12 pt-5 mb-5">
+                                <div
+                                    class="section-title section-title-sm position-relative pb-3 mb-4"
+                                >
+                                    <h3 class="text-light mb-0">Bize Ulaşın</h3>
+                                </div>
+                                <div class="d-flex mb-2">
+                                    <i
+                                        class="bi bi-geo-alt text-primary me-2"
+                                    ></i>
+                                    <p class="mb-0">
+                                        Sahibiata, Kazım Karabekir Cd. Kabasakal
+                                        pasajı Zemin 9 No: 14-15-16, 42040
+                                        Meram/Konya, Turkey
+                                    </p>
+                                </div>
+                                <div class="d-flex mb-2">
+                                    <i
+                                        class="bi bi-envelope-open text-primary me-2"
+                                    ></i>
+                                    <p class="mb-0">oyun_evreni@gmail.com</p>
+                                </div>
+                                <div class="d-flex mb-2">
+                                    <i
+                                        class="bi bi-telephone text-primary me-2"
+                                    ></i>
+                                    <p class="mb-0">+903323501480</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5">
+                                <div
+                                    class="section-title section-title-sm position-relative pb-3 mb-4"
+                                >
+                                    <h3 class="text-light mb-0">
+                                        Hızlı Bağlantılar
+                                    </h3>
+                                </div>
+                                <div
+                                    class="link-animated d-flex flex-column justify-content-start"
+                                >
+                                    <a class="text-light mb-2" href="index.html"
+                                        ><i
+                                            class="bi bi-arrow-right text-primary me-2"
+                                        ></i
+                                        >Ana Sayfa</a
+                                    >
+                                    <a
+                                        class="text-light mb-2"
+                                        href="index.html#about"
+                                        ><i
+                                            class="bi bi-arrow-right text-primary me-2"
+                                        ></i
+                                        >Hakkımızda</a
+                                    >
+                                    <a
+                                        class="text-light mb-2"
+                                        href="index.html#service"
+                                        ><i
+                                            class="bi bi-arrow-right text-primary me-2"
+                                        ></i
+                                        >Hizmetler</a
+                                    >
+                                    <a
+                                        class="text-light mb-2"
+                                        href="index.html#contact"
+                                        ><i
+                                            class="bi bi-arrow-right text-primary me-2"
+                                        ></i
+                                        >İletişim</a
+                                    >
+                                    <a
+                                        class="text-light mb-2"
+                                        href="privacy-policy.html"
+                                        ><i
+                                            class="bi bi-arrow-right text-primary me-2"
+                                        ></i
+                                        >Gizlilik Politikası</a
+                                    >
+                                    <a
+                                        class="text-light"
+                                        href="terms-of-use.html"
+                                        ><i
+                                            class="bi bi-arrow-right text-primary me-2"
+                                        ></i
+                                        >Kullanım Şartları</a
+                                    >
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <!-- Back to Top -->
+        <a
+            href="#"
+            class="btn btn-lg btn-primary btn-lg-square rounded back-to-top"
+            ><i class="bi bi-arrow-up"></i
+        ></a>
+
+        <!-- Cookie banner -->
+        <div class="cookie-wrapper show">
+            <div>
+                <i class="bx bx-cookie"></i>
+                <h2 style="text-align: center">Çerez Kullanımına Onay</h2>
+            </div>
+            <div class="data">
+                <p>
+                    Bu web sitesi, size daha iyi bir gezinme deneyimi sunmak
+                    için çerezler kullanır.
+                    <a href="#">Daha fazla bilgi...</a>
+                </p>
+            </div>
+
+            <div class="buttons">
+                <button class="cookie-button" id="acceptBtn">Kabul Et</button>
+                <button class="cookie-button" id="declineBtn">Reddet</button>
+            </div>
+        </div>
+        <!-- End Cookie banner -->
+
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        <script src="js/contact-form.js"></script>
+        <script src="js/cookiebanner.js"></script>
+    </body>
+</html>
